@@ -1,0 +1,222 @@
+body {
+  background-color: #ece8d9;
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  color: #272044;
+}
+
+h1 {
+  margin: 10px;
+  text-align: center;
+  color: #272044;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+a:hover {
+  color: grey;
+  transition: all 150ms ease-in-out;
+}
+
+/* header */
+header {
+  background-color: #fffdf6;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.header-nana {
+  margin-top: 80px;
+  height: 80vh;
+}
+
+.header-nana p {
+  font-size: x-large;
+  text-align: center;
+  font-weight: 800;
+  margin: 0;
+  color: #272044;
+}
+
+.nana-img {
+  display: block;
+  margin: 0 auto;
+  height: 30%;
+}
+
+.navigation {
+  display: flex;
+  gap: 23px;
+  margin-right: 50px;
+  font-weight: 700;
+  margin-top: 10px;
+  justify-content: end;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #272044;
+  border: 3px solid #ff7f50;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* section 2 */
+.section-2 {
+  margin: 80px 40px;
+  height: 120vh;
+  background-color: #ece8d9;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.section-box {
+  background-color: #fffdf6;
+  border-radius: 30px;
+  width: 400px;
+  max-height: 1000px;
+  text-align: justify;
+  padding: 20px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.section-box:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.section-box img {
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+/* section 3 */
+
+.section-3 {
+  margin: 0;
+  background-color: #fffdf6;
+  justify-content: center;
+  padding: 30px 60px;
+  text-align: justify;
+}
+
+.duta-baca {
+  display: flex;
+  gap: 10px;
+}
+
+.duta-baca-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wawancara-terawan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* section 4 */
+.section-4 {
+  margin: 0;
+  justify-content: center;
+  padding: 30px 60px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: small;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.flex-img {
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 180px;
+  height: 107px;
+}
+
+.prestasi-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 10px;
+  gap: 20px;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+}
+
+/* footer */
+footer {
+  padding: 30px 60px;
+  background-color: #fffdf6;
+  font-size: large;
+}
+
+fieldset {
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88vh;
+}
+
+.social-media {
+  margin: 10px 0;
+}
+
+input,
+label,
+textarea {
+  margin: 5px 0;
+}
+
+input {
+  width: 350px;
+  padding: 5px;
+}
+
+legend {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 800;
+  color: #272044;
+  margin-bottom: 20px;
+}
+
+#submit {
+  margin-top: 10px;
+  background-color: #ece8d9;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#submit:hover {
+  cursor: pointer;
+  filter: opacity(0.8);
+}
