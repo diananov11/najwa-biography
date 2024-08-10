@@ -156,7 +156,6 @@ figcaption {
 
 .prestasi-container {
   display: flex;
-  flex: 1;
   justify-content: center;
   margin: 10px;
   gap: 20px;
