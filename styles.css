@@ -173,6 +173,10 @@ footer {
   font-size: large;
 }
 
+footer h2 {
+  margin-bottom: 20px;
+}
+
 fieldset {
   padding: 20px;
   border-radius: 20px;
@@ -189,6 +193,11 @@ fieldset {
   margin: 10px 0;
 }
 
+.logo-footer {
+  margin-top: 50px;
+  width: 200px;
+}
+
 input,
 label,
 textarea {
@@ -198,6 +207,12 @@ textarea {
 input {
   width: 350px;
   padding: 5px;
+}
+
+input,
+textarea {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
 }
 
 legend {
